@@ -1,0 +1,25 @@
+.box-category-blog {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 3px 35px 0px rgba(0, 0, 0, 0.0784313725490196);
+  padding: 20px 15px;
+}
+.list-cate-blog {
+  display: grid;
+  row-gap: 20px;
+}
+.list-cate-blog li {
+  color: var(--myTextGray);
+  font-size: 15px;
+}
+
+.list-cate-blog li::marker {
+  color: var(--myColor1);
+}
+
+@media screen and (max-width: 768px) {
+  .list-cate-blog li {
+    color: var(--myTextGray);
+    font-size: 13px;
+  }
+}

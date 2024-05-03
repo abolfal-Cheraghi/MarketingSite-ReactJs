@@ -1,0 +1,28 @@
+.swiper {
+  padding: 40px 0px !important;
+}
+
+.swiper-slide {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.company-img {
+  opacity: 0.6;
+  transition: all 0.5s;
+}
+.company-img:hover {
+  opacity: 1;
+}
+
+/* navigation */
+
+.slider-companies .swiper-button-prev::after,
+.slider-companies .swiper-button-next::after {
+  padding: 0;
+  margin: 0 !important;
+  color: var(--myColor1);
+  font-size: 12px;
+  font-weight: bold;
+}

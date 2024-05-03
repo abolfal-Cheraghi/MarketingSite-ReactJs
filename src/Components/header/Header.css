@@ -1,0 +1,134 @@
+@media screen and (max-width: 992px) {
+  .offcanvas {
+    width: 300px !important;
+    transition: all 0.6s ease-in-out !important;
+    opacity: 0 !important;
+  }
+  .show {
+    transition: all 0.6s ease-out !important;
+    opacity: 1 !important;
+  }
+  .offcanvas-backdrop {
+    opacity: 0.77 !important;
+  }
+  .navbar-toggler {
+    border: none !important;
+    outline: none !important;
+  }
+  .navbar-toggler:focus {
+    border: none !important;
+    outline: none !important;
+  }
+  .right-Navbar {
+    flex-direction: row-reverse;
+    column-gap: 50px !important;
+  }
+
+  .logo-header {
+    width: 150px;
+    height: 40px;
+  }
+  .btn-close {
+    position: absolute;
+    left: -40px;
+    color: var(--bgColorWhite);
+    font-size: 18px;
+  }
+  .offcanvas-header {
+    padding: 0 !important;
+    margin: 0 auto;
+  }
+  .logo-offcanvas {
+    height: 80px;
+    width: 170px;
+  }
+  .navbar-toggler {
+    padding: 0 !important;
+  }
+  .navbar-toggler svg {
+    fill: var(--myColor1);
+  }
+  .navbar-nav a {
+    color: var(--myTextGray);
+    font-size: 15px;
+  }
+  .link-icon-call {
+    width: 35px;
+    height: 35px;
+    background-color: var(--myColor1);
+    border-radius: 20px;
+    visibility: visible !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 4px 7px;
+  }
+
+  .link-icon-call {
+    display: block !important;
+  }
+  .btn-tarefe {
+    display: none;
+  }
+  .box-contact-nav {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .box-contact-nav {
+    display: none !important;
+  }
+  .navbar-nav {
+    gap: 15px !important;
+  }
+}
+
+.navbar {
+  margin: 25px 0;
+  height: 65px !important;
+  padding: 0 15px !important;
+  border-radius: 15px;
+  background-color: var(--bgColorWhite);
+  box-shadow: 0px 3px 35px 0px rgba(0, 0, 0, 0.0784313725490196);
+}
+
+.navbar-nav {
+  gap: 20px;
+}
+.navbar-nav a {
+  color: var(--myTextGray);
+  font-size: 14px !important;
+}
+
+.active {
+  color: var(--myTextBlack) !important;
+}
+
+.right-Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 60px;
+}
+
+.navbar a {
+  color: var(--myTextGray);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.link-icon-call {
+  visibility: hidden;
+}
+.link-icon-call svg {
+  fill: var(--bgColorWhite);
+}
+
+.icon-contact-nav {
+  background-color: #dfdffd;
+  padding: 8px;
+  border-radius: 50%;
+}
+.icon-contact-nav svg {
+  fill: #676af9;
+}

@@ -1,0 +1,14 @@
+.hr-sr-page {
+  color: rgb(165, 165, 165);
+  margin-bottom: 10px;
+}
+.wrapper-icon-social-sr {
+  display: flex;
+  column-gap: 10px;
+}
+.wrapper-icon-social-sr svg {
+  fill: var(--myColor1);
+}
+.wrapper-icon-social-sr svg:hover {
+  fill: var(--myColor4);
+}

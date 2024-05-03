@@ -1,0 +1,14 @@
+.btn2 {
+  all: unset;
+  padding: 10px 35px;
+  font-size: 14px;
+  font-family: var(--myFontMedium);
+  color: var(--myTextWhite);
+  background: linear-gradient(102deg, #5e71ff 0%, #9e77cc 100%);
+  border-radius: 15px;
+  transition: all 0.4s;
+}
+
+.btn2:hover {
+  transform: scale(1.1);
+}

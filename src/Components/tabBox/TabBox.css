@@ -1,0 +1,29 @@
+.container-tab-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ant-segmented {
+  background-color: #eff3f5 !important;
+  border-radius: 30px !important;
+  padding: 5px;
+}
+.option-tab-box,
+.option-tab-box::after {
+  border-radius: 30px !important;
+}
+.option-tab-box {
+  font-size: 5rem !important;
+}
+.img-tab-box {
+  max-width: 20px;
+}
+.ant-segmented-item-label {
+  min-height: auto !important;
+}
+.ant-segmented-item-label span {
+  font-family: var(--myFontMedium) !important;
+  color: var(--myColor1);
+  font-size: 12px !important;
+}

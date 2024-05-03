@@ -1,0 +1,32 @@
+.con-img-about {
+  position: relative;
+}
+.con-img-about::before {
+  content: "";
+  width: 60%;
+  width: 60%;
+  position: absolute;
+  border-radius: 50%;
+  background: linear-gradient(to right, #8d8bfc, #d5b4fa);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.info-about {
+  display: grid;
+  row-gap: 12px;
+}
+
+
+/* section slider-comments */
+.comments-slider{
+  margin-top: 70px;
+}
+
+
+@media screen and (max-width : 768px){
+   .column-reverce-mobile{
+    flex-direction: column-reverse;
+   }
+}

@@ -1,0 +1,16 @@
+.section-services {
+  margin-top: 60px;
+}
+.title-box-sr {
+  display: flex;
+  flex-direction: column;
+  row-gap: 13px;
+  align-items: center;
+}
+.title-box-sr h2 {
+  font-size: 22.5px;
+}
+
+.col-cart-sr {
+  margin: 110px 0;
+}

@@ -1,0 +1,9 @@
+.swiper-plans {
+  margin: 10px 60px;
+}
+
+@media screen and (max-width: 800px) {
+  .swiper-plans {
+    margin: -10px 0px !important ;
+  }
+}

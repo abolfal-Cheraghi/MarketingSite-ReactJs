@@ -1,0 +1,28 @@
+.box-input-join-newsletter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgba(227, 227, 227, 0.53);
+  height: 40px;
+  border-radius: 15px;
+}
+.box-input-join-newsletter input {
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  padding: 5px 8px;
+  font-size: 14px;
+}
+.box-input-join-newsletter button {
+  all: unset;
+  color: var(--myTextWhite);
+  width: 30%;
+  border-radius: 15px;
+  height: 100%;
+  text-align: center;
+  background-color: var(--myColor1);
+  font-size: 14px;
+  font-family: var(--myFontMedium);
+}

@@ -1,0 +1,14 @@
+.mySwiper {
+  padding: 40px 0 !important;
+}
+.sliderService {
+  padding-bottom: 140px !important;
+}
+.slider-service .swiper-pagination-bullet {
+  background-color: #a1a1a1 !important;
+}
+.slider-service .swiper-pagination-bullet-active {
+  width: 13px;
+  border-radius: 20px;
+  background-color: var(--myColor1) !important;
+}

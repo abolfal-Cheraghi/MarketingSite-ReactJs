@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/public/Group.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>کدنوا | دیجیتال مارکتینگ</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+      let x = document.getElementsByTagName("title")[0];
+
+      window.addEventListener("focus", () => {
+        x.innerHTML = "کدنوا | دیجیتال مارکتینگ";
+      });
+      window.addEventListener("blur", () => {
+        x.innerHTML = "چرارفتی 😐";
+      });
+
+     
+    </script>
+  </body>
+</html>

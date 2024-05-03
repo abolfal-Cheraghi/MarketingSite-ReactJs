@@ -1,0 +1,33 @@
+.con-info-video {
+}
+
+.btn-bodal-video {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+.btn-bodal-video img {
+  width: 40px;
+  height: 40px;
+}
+.btn-bodal-video span {
+  font-family: var(--myFontMedium);
+  text-decoration: underline;
+  text-decoration-color: var(--myColor1);
+  text-decoration-line: 30px;
+}
+
+.modal-backdrop.show {
+  opacity: 0.78 !important;
+}
+
+.modal-content{
+    border-radius: 20px !important;
+    overflow: hidden;
+}
+
+.video-info {
+  background-color: black;
+
+}

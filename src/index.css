@@ -1,0 +1,382 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: var(--myFont), sans-serif;
+}
+
+/* body */
+body {
+  background-color: #fcfcff !important;
+}
+
+/* location font */
+@font-face {
+  font-family: "iranSans";
+  src: url("./assets/fonts/IRANSansWeb_FaNum_Light.ttf");
+}
+@font-face {
+  font-family: "iranSansBold";
+  src: url("./assets/fonts/IRANSansWeb_FaNum_Bold.ttf");
+}
+@font-face {
+  font-family: "iranSansMedium";
+  src: url("./assets/fonts/IRANSansWeb_FaNum_Medium.ttf");
+}
+:root {
+  /* var */
+  --myColor1: #5e71ff;
+  --myColor2: #715ef6;
+  --myColor3: #9e77cc;
+  --myColor4: #fecbf8;
+  --myColor5: #6966fa;
+  --myColor6: #8450e1;
+  --bgColorWhite: #ffffff;
+  --myTextGray: #716f87;
+  --myTextBalck: #1e1e1e;
+  --myTextBlue: #23203f;
+  --myTextWhite: #ffffff;
+  --myFont: "iranSans";
+  --myFontMedium: "iranSansMedium";
+  --myFontBold: "iranSansBold";
+
+  /* font */
+  font-family: var(--myFontMedium);
+}
+
+/* classes */
+
+/* bg colors */
+.bgColor1 {
+  background-color: var(--myColor1);
+}
+.bgColor2 {
+  background-color: var(--myColor2);
+}
+.bgColor3 {
+  background-color: var(--myColor3);
+}
+.bgColor4 {
+  background-color: var(--myColor4);
+}
+
+/* text color */
+.textColor1 {
+  color: var(--myColor1);
+}
+.textColor2 {
+  color: var(--myColor2);
+}
+.textColor3 {
+  color: var(--myColor3);
+}
+.textColor4 {
+  color: var(--myColor4);
+}
+.textBlack {
+  color: var(--myTextBalck);
+}
+.textBlue {
+  color: var(--myTextBlue);
+}
+.textGray {
+  color: var(--myTextGray);
+}
+.textWhite {
+  color: var(--myTextWhite);
+}
+
+/* font */
+.snas-bold {
+  font-family: var(--myFontBold);
+}
+.snas-medium {
+  font-family: var(--myFontMedium);
+}
+
+.size12 {
+  font-size: 12px;
+}
+
+.size13 {
+  font-size: 13px;
+}
+
+/* flexBox */
+
+.flex-all {
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/* box top title */
+.top-title {
+  width: fit-content;
+  text-align: center;
+  background-color: var(--myColor4);
+  padding: 5px 10px;
+  border-radius: 25px;
+  color: var(--myColor1);
+  font-size: 13px;
+  font-family: var(--myFontMedium);
+}
+
+/* title hero */
+.title-hero {
+  line-height: 40px;
+}
+.desc-hero,
+.desc-any {
+  text-align: justify;
+  line-height: 29px;
+}
+
+/* section contact us */
+.img-contact {
+  position: relative;
+  padding: 30px;
+}
+.box-bg-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.box-bg-contact img {
+  z-index: 2;
+}
+.bg-img-contact {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 400px;
+  width: 400px;
+  background: linear-gradient(to right, #8d8bfc, #d5b4fa);
+  border-radius: 50%;
+}
+
+/* class borders */
+.border-1 {
+  border: 1px solid #b5b1b12e;
+  border-radius: 20px;
+  background-color: var(--myTextWhite);
+}
+/* box info page service , project , article */
+.container-info {
+  position: relative;
+  display: grid;
+  row-gap: 12px;
+  padding: 12px 20px;
+  overflow: hidden;
+}
+
+.title-box {
+  font-size: 13px;
+  font-family: var(--myFontMedium);
+  color: var(--myTextBlack);
+  position: relative;
+  padding-right: 16px;
+}
+.title-box::before {
+  content: "";
+  position: absolute;
+  right: -20px;
+  top: 7px;
+  height: 4px;
+  width: 25px;
+  background-color: var(--myColor4);
+}
+
+/* header content page service , project*/
+.info-content {
+  padding: 25px;
+}
+.info-content .header {
+  display: grid;
+  row-gap: 10px;
+}
+.info-content .header .img-page {
+  border-radius: 16px;
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  object-position: center center;
+}
+/* box intro page project , service , article */
+.box-intoro {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box-intoro .right {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+.box-intoro .right span {
+  color: #9d9d9d;
+}
+.box-intoro .right span svg {
+  fill: #757575;
+}
+
+.wrrapper-icon-share svg {
+  fill: #676767;
+  transition: all 0.2s;
+}
+.wrrapper-icon-share svg:hover {
+  fill: var(--myColor1);
+}
+
+/* desc page article , service , project */
+.desc-pr {
+  font-size: 13.5px !important;
+  margin-top: 15px;
+}
+
+/* box info project */
+.wrapper-list-info {
+  display: grid;
+  row-gap: 10px;
+  margin-top: 10px;
+}
+.list-item-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px dashed #cecece4a;
+  padding: 10px 0;
+}
+.list-item-info span {
+  font-weight: 600;
+}
+.awnser-info {
+  font-size: 13px;
+  color: var(--myTextGray);
+}
+.text-info-list {
+  font-size: 12.5px !important;
+  color: var(--myTextBlack) !important;
+  display: flex;
+  column-gap: 5px;
+}
+.text-info-list svg {
+  fill: var(--myColor1);
+}
+
+/* read more carts */
+.read-more {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  column-gap: 2px;
+  transition: all 0.3s;
+}
+
+.read-more:hover,
+.read-more:hover svg {
+  color: var(--myColor1);
+  fill: var(--myColor1);
+}
+
+/* media screen */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 16px !important;
+    font-family: var(--myFontMedium);
+  }
+  h2 {
+    font-size: 14px;
+    font-family: var(--myFontBold);
+    color: var(--myTextBalck);
+  }
+  .title-section {
+    font-size: 15px;
+  }
+  h3 {
+    font-size: 13px;
+  }
+  p {
+    font-size: 11.5px;
+  }
+  .flex-all {
+    flex-wrap: wrap;
+  }
+
+  /* box title top */
+  .top-title {
+    font-size: 11px;
+  }
+
+  /* section contact us */
+  .box-img-contact {
+    right: 40px;
+    bottom: -10px;
+  }
+  .box-img-contact img {
+    width: 160px;
+  }
+  .bg-img-contact {
+    height: 300px;
+    width: 300px;
+  }
+
+  /* desc */
+  .desc {
+    font-size: 12px !important;
+  }
+
+  /* info-content */
+  .info-content {
+    padding: 15px;
+  }
+}
+@media screen and (max-width: 992px) {
+  h2 {
+    font-size: 17px;
+    font-family: var(--myFontBold);
+    color: var(--myTextBalck);
+  }
+  .title-section {
+    font-size: 17px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+  p {
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  h1 {
+    font-size: 17px !important ;
+    font-family: var(--myFontMedium);
+  }
+
+  h2 {
+    font-size: 20px;
+    font-family: var(--myFontBold);
+    color: var(--myTextBalck);
+  }
+  .title-section {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+
+/* conteiner loading */
+.con-spin {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
